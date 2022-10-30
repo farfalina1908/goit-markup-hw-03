@@ -127,9 +127,6 @@ html {
 .hero {
    background-color: #2f303a;
    text-align: center;
-
-   padding-left: 237px;
-   padding-right: 237px;
 }
 .hero-title {
    margin-left: auto;
@@ -226,7 +223,7 @@ html {
    margin-right: 30px;
    margin-bottom: 0;
 }
-.feature-list .item:nth-child(3n) {
+.our-cases .item:nth-child(3n) {
    margin-right: 0;
 }
 .cases-title,
@@ -243,6 +240,9 @@ html {
    letter-spacing: 0.03em;
 }
 /* our team */
+.team {
+   background-color: #f5f4fa;
+}
 .our-team {
    display: flex;
 }
@@ -381,6 +381,7 @@ html {
 }
 .item-content {
    border: 1px solid rgba(238, 238, 238, 1);
+   padding: 20px 24px;
 }
 .portfolio-title {
    color: var(--title-text-color);
@@ -390,7 +391,6 @@ html {
    font-size: 18px;
    line-height: calc(36 / 18);
    letter-spacing: 0.06em;
-   text-align: center;
 }
 .portfolio-text {
    color: var(--primary-text-color);
@@ -400,5 +400,4 @@ html {
    font-size: 16px;
    line-height: calc(30 / 16);
    letter-spacing: 0.03em;
-   text-align: center;
 }
